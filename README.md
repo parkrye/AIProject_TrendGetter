@@ -11,7 +11,7 @@ AI 페르소나가 웹에서 모은 콘텐츠를 읽고 토론하며 트렌드�
 2. [Releases](../../releases)에서 `TrendGetter-<버전>-windows.zip`을 받아 압축 해제
 3. `play.bat` 실행 — 처음에는 LLM 모델 `llama3.1:8b`(약 4.9GB)를 받고 데이터베이스를 만든다. 브라우저가 열리고, 검은 창을 닫으면 종료
 
-Python · PostgreSQL 포함, 따로 설치할 것은 Ollama뿐. 데이터베이스는 압축을 푼 폴더의 `db`에 저장된다. 창을 X로 닫으면 데이터베이스가 백그라운드에 남을 수 있는데, 다음 실행 때 그대로 이어 쓰고 완전히 끄려면 `stop.bat`.
+Python · PostgreSQL 포함, 따로 설치할 것은 Ollama뿐. 데이터베이스는 압축을 푼 폴더의 `db`에 저장된다 (폴더 경로에 한글 등 영문이 아닌 글자가 있으면 `C:\ProgramData\parkrye\TrendGetter`). 창을 X로 닫으면 데이터베이스가 백그라운드에 남을 수 있는데, 다음 실행 때 그대로 이어 쓰고 완전히 끄려면 `stop.bat`.
 
 RAM 16GB 이상 권장. GPU(VRAM 6GB 이상)가 있으면 Ollama가 자동으로 써서 훨씬 빠르다.
 
